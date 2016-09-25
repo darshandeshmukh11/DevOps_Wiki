@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-   <project name="Hello World Project" default="info">
-   
+<project name="Hello World Project" default="info">
+
+   <property name="sitename" value="darshandeshmukh.blogspot.in"/> 
    <target name="info">
-      <echo>Hello World - Welcome to Apache Ant!</echo>
+      <echo>Apache Ant version is ${ant.version} - You are at ${sitename} </echo>
    </target>
    
 </project>
